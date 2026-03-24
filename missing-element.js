@@ -11,7 +11,7 @@ function onPageLoad()
     firstPart = [ "Complétez avec le mot approprié", "Il dépense sans compter au casino, c'est un vrai", "Après des années d'économies, il a amassé un joli", "Le gouvernement a créé un", "L'immobilier reste un", "Ne compte pas sur lui, il est complètement", "Après la guerre, beaucoup de familles étaient", "Ce", "Son", "T'aurais pas un peu de", "Ma grand-mère gardait ses économies dans un", "Pour ce prix-là, j'en", "Il a", "Elle", "Depuis qu'il a perdu son emploi, il est" ];
     secondPart = [ "Utilisez le vocabulaire de l'argent", ".", ".", "pour aider les jeunes entreprises.", "sûr à long terme.", ".", ".", "étale sa richesse devant tout le monde.", "mensuel ne lui permet pas de vivre décemment.", "à me prêter ?", ".", "pour mon argent !", "sa vieille voiture contre un vélo électrique.", "de l'argent de la part de ses parents.", "." ];
     missingElement = [ "Argent (fam.)", "flambeur", "magot", "fonds", "placement", "radin", "indigentes", "parvenu", "revenu", "thune", "bas de laine", "veux", "troqué", "touche", "sur la paille" ];
-    hints = [ "nan", "dépensier", "pécule", "capital", "investissement", "avare", "pauvres", "nouveau riche", "salaire", "fric", "épargne", "en vouloir", "faire un échange", "recevoir", "ruiné" ];
+    hints = [ "nan", "dépensier – f...", "pécule – m...", "capital – f...", "investissement – p...", "avare – r...", "pauvres – i...", "nouveau riche – p...", "salaire – r...", "fric – t...", "épargne – b...", "avoir des attentes – v...", "faire un échange – t...", "recevoir – t...", "ruiné – s..." ];
 
     var myForm = document.createElement("form");
     myForm.setAttribute("id", "myExercice"); 
